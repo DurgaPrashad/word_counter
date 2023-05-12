@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Word Counter</title>
+  </head>
+  <h1 style="color: rgb(255, 255, 255);">WORD COUNTER</h1>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Counter</title>
+    <script>
+      function countWords() {
+        var text = document.getElementById("input").value;
+        var wordCount = text.trim().split(/\s+/).length;
+        document.getElementById("count").innerHTML = wordCount;
+      }
+    </script>
+  </head>
+  <body>
+    <textarea id="input" rows="20" cols="70"></textarea>
+    <br>
+    <button onclick="countWords()">Count Words</button>
+    <h1 style="color: rgb(255, 255, 255);">COUNT</h1>
+    <h1> <span id="count" style="color: rgb(255, 255, 255);">0</span></h1>
+
+  </body>
+  <html>
+    <head>
+      <title></title>
+      <style>
+        body {
+          background-image: url('22.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+    </head>
+    <body>
+      
+    </body>
+    </html>
